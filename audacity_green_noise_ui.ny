@@ -3,13 +3,13 @@
 ;name “Green Noise Gen (Golden ratio LFO v1.2)”
 ;release 1.2
 
-;control dur-min “Duration (Minutes)” float “” 1.0 0.1 60.0
+;control dur-min “Duration (Minutes)” float “” 30.0 0.1 60.0
 ;control slope “Base Slope” choice “Pink (-3dB),Brown (-6dB)” 1
 ;control low-cut “Lower Frequency (Hz)” int “” 100 100 1000
-;control high-cut “Upper Frequency (Hz)” int “” 1000 200 2000
-;control mod-speed “Modulation Speed (Hz)” float “” 0.1 0.01 2.0
-;control mod-depth “Modulation Depth” float “” 0.2 0.0 0.5
-;control resonance “Filter Resonance (Q)” float “” 0.7 0.1 5.0
+;control high-cut “Upper Frequency (Hz)” int “” 600 200 2000
+;control mod-speed “Modulation Speed (Hz)” float “” 0.001 0.001 2.0
+;control mod-depth “Modulation Depth” float “” 0.1 0.0 0.5
+;control resonance “Filter Resonance (Q)” float “” 0.5 0.1 5.0
 
 ;; Define Golden Mean Constants
 (setf phi 1.6180339887)
