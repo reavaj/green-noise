@@ -19,13 +19,13 @@ This plugin generates green noise (a perceptually balanced noise between pink an
 
 | Parameter | Range | Default | Description |
 |-----------|-------|---------|-------------|
-| **Duration (Minutes)** | 0.1–60 | 1.0 | Length of generated audio |
-| **Base Slope** | Pink (-3dB), Brown (-6dB) | Pink | Frequency response of noise floor |
+| **Duration (Minutes)** | 0.1–60 | 30.0 | Length of generated audio |
+| **Base Slope** | Pink (-3dB), Brown (-6dB) | Brown | Frequency response of noise floor |
 | **Lower Frequency (Hz)** | 100–1000 | 100 | Bandpass filter lower cutoff |
-| **Upper Frequency (Hz)** | 200–2000 | 1000 | Bandpass filter upper cutoff |
-| **Modulation Speed (Hz)** | 0.01–2.0 | 0.1 | LFO frequency scale factor |
-| **Modulation Depth** | 0.0–0.5 | 0.2 | LFO amplitude (0 = no modulation) |
-| **Filter Resonance (Q)** | 0.1–5.0 | 0.7 | Bandpass filter sharpness |
+| **Upper Frequency (Hz)** | 200–2000 | 600 | Bandpass filter upper cutoff |
+| **Modulation Speed (Hz)** | 0.001–2.0 | 0.001 | LFO frequency scale factor |
+| **Modulation Depth** | 0.0–0.5 | 0.1 | LFO amplitude (0 = no modulation) |
+| **Filter Resonance (Q)** | 0.1–5.0 | 0.5 | Bandpass filter sharpness |
 
 ## Usage
 
